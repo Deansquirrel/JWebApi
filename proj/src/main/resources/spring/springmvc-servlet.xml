@@ -16,6 +16,9 @@
 	<mvc:annotation-driven />
 
 	<context:component-scan base-package="com.yuansong.controller" />
+	<context:component-scan base-package="com.yuansong.service" />
+	<context:component-scan base-package="com.yuansong.task" />
+	
 	<!--
 	<context:component-scan base-package="com.yuansong.service" />
 	<context:component-scan base-package="com.yuansong.VO" />
@@ -82,7 +85,7 @@
 	</bean>
 	
 	
- 	<bean id="exceptionResolver" class="com.yuansong.common.ExceptionHandler" /> 
+ 	<bean id="exceptionResolver" class="com.yuansong.exception.ExceptionHandler" /> 
 	 
 	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />
 

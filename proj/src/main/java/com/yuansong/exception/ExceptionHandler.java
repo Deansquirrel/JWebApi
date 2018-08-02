@@ -1,4 +1,4 @@
-package com.yuansong.common;
+package com.yuansong.exception;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
